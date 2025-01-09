@@ -2980,23 +2980,23 @@
         },
         {
             "name": "pusher/pusher-php-server",
-            "version": "7.2.3",
+            "version": "7.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pusher/pusher-http-php.git",
-                "reference": "416e68dd5f640175ad5982131c42a7a666d1d8e9"
+                "reference": "148b0b5100d000ed57195acdf548a2b1b38ee3f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/416e68dd5f640175ad5982131c42a7a666d1d8e9",
-                "reference": "416e68dd5f640175ad5982131c42a7a666d1d8e9",
+                "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/148b0b5100d000ed57195acdf548a2b1b38ee3f7",
+                "reference": "148b0b5100d000ed57195acdf548a2b1b38ee3f7",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^7.2",
-                "paragonie/sodium_compat": "^1.6",
+                "paragonie/sodium_compat": "^1.6|^2.0",
                 "php": "^7.3|^8.0",
                 "psr/log": "^1.0|^2.0|^3.0"
             },
@@ -3035,9 +3035,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pusher/pusher-http-php/issues",
-                "source": "https://github.com/pusher/pusher-http-php/tree/7.2.3"
+                "source": "https://github.com/pusher/pusher-http-php/tree/7.2.7"
             },
-            "time": "2023-05-17T16:00:06+00:00"
+            "time": "2025-01-06T10:56:20+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -9054,5 +9054,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
